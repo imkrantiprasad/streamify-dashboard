@@ -1,0 +1,109 @@
+{
+  "metrics": {
+    "totalUsers": 150000,
+    "activeUsers": 45000,
+    "totalStreams": 2500000,
+    "revenue": {
+      "subscriptions": 500000,
+      "ads": 200000
+    },
+    "topArtist": "Arijit Singh"
+  },
+  "userGrowth": [
+    { "month": "Jan", "totalUsers": 10000, "activeUsers": 3000 },
+    { "month": "Feb", "totalUsers": 12000, "activeUsers": 3500 },
+    { "month": "Mar", "totalUsers": 15000, "activeUsers": 4000 },
+    { "month": "Apr", "totalUsers": 18000, "activeUsers": 5000 },
+    { "month": "May", "totalUsers": 22000, "activeUsers": 6000 },
+    { "month": "Jun", "totalUsers": 25000, "activeUsers": 7500 },
+    { "month": "Jul", "totalUsers": 28000, "activeUsers": 8000 },
+    { "month": "Aug", "totalUsers": 32000, "activeUsers": 10000 },
+    { "month": "Sep", "totalUsers": 40000, "activeUsers": 12000 },
+    { "month": "Oct", "totalUsers": 50000, "activeUsers": 15000 },
+    { "month": "Nov", "totalUsers": 60000, "activeUsers": 18000 },
+    { "month": "Dec", "totalUsers": 150000, "activeUsers": 45000 }
+  ],
+  "revenueDistribution": [
+    { "source": "Subscriptions", "value": 500000 },
+    { "source": "Ads", "value": 200000 }
+  ],
+  "topSongs": [
+    { "name": "Tum Hi Ho", "streams": 150000 },
+    { "name": "Shayad", "streams": 130000 },
+    { "name": "Bekhayali", "streams": 120000 },
+    { "name": "Ghungroo", "streams": 110000 },
+    { "name": "Tera Ban Jaunga", "streams": 100000 }
+  ],
+  "streams": [
+    {
+      "songName": "Tum Hi Ho",
+      "artist": "Arijit Singh",
+      "dateStreamed": "2024-08-01",
+      "streamCount": 1500,
+      "userId": "U12345"
+    },
+    {
+      "songName": "Shayad",
+      "artist": "Arijit Singh",
+      "dateStreamed": "2024-08-02",
+      "streamCount": 1200,
+      "userId": "U12346"
+    },
+    {
+      "songName": "Bekhayali",
+      "artist": "Sachet Tandon",
+      "dateStreamed": "2024-08-03",
+      "streamCount": 1300,
+      "userId": "U12347"
+    },
+    {
+      "songName": "Ghungroo",
+      "artist": "Arijit Singh",
+      "dateStreamed": "2024-08-04",
+      "streamCount": 1100,
+      "userId": "U12348"
+    },
+    {
+      "songName": "Tera Ban Jaunga",
+      "artist": "Tulsi Kumar",
+      "dateStreamed": "2024-08-05",
+      "streamCount": 1400,
+      "userId": "U12349"
+    },
+    {
+      "songName": "Tum Hi Ho",
+      "artist": "Arijit Singh",
+      "dateStreamed": "2024-08-06",
+      "streamCount": 900,
+      "userId": "U12350"
+    },
+    {
+      "songName": "Shayad",
+      "artist": "Arijit Singh",
+      "dateStreamed": "2024-08-07",
+      "streamCount": 1500,
+      "userId": "U12351"
+    },
+    {
+      "songName": "Bekhayali",
+      "artist": "Sachet Tandon",
+      "dateStreamed": "2024-08-08",
+      "streamCount": 1700,
+      "userId": "U12352"
+    },
+    {
+      "songName": "Ghungroo",
+      "artist": "Arijit Singh",
+      "dateStreamed": "2024-08-09",
+      "streamCount": 1600,
+      "userId": "U12353"
+    },
+    {
+      "songName": "Tera Ban Jaunga",
+      "artist": "Tulsi Kumar",
+      "dateStreamed": "2024-08-10",
+      "streamCount": 1800,
+      "userId": "U12354"
+    }
+  ]
+}
