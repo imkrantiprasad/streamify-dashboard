@@ -5,11 +5,11 @@ import RevenueDistributionChart from "./RevenueDistributionChart";
 import TopSongsChart from "./TopSongsChart";
 import StreamsTable from "./StreamsTable";
 import Header from "./Header";
-import { useContext } from "react";
-import { DashboardContext } from "../context/DashboardContext";
+// import { useContext } from "react";
+// import { DashboardContext } from "../context/DashboardContext";
 
 const Dashboard = () => {
-  const { setStreams } = useContext(DashboardContext);
+  // const { setStreams } = useContext(DashboardContext);
 
   const handleRevenueClick = (source) => {
     // Implement filtering logic based on revenue source
