@@ -22,7 +22,6 @@ Check out the live version of the dashboard here: [Streamify Dashboard on Netlif
 - **React**: For building the frontend.
 - **Tailwind CSS**: For styling the UI.
 - **Recharts**: For creating charts.
-- **JSON Server**: For mocking a backend API with real-time data.
 - **React Icons**: For displaying icons in the table headers.
 
 ## Prerequisites
@@ -49,17 +48,7 @@ cd streamify-dashboard
 npm install
 ```
 
-### 3. Run the JSON Server (mock backend)
-
-JSON Server is used to mock the backend and provide the data for the dashboard.
-
-```bash
-npx json-server --watch db.json --port 4000
-```
-
-- This command will serve the data from the db.json file at http://localhost:4000.
-
-### 4. Start the React Application
+### 3. Start the React Application
 
 In another terminal window, start the React development server:
 
@@ -69,6 +58,6 @@ npm start
 
 This will start the React application on http://localhost:3000.
 
-### 5. View the Dashboard
+### 4. View the Dashboard
 
 Open your browser and visit http://localhost:3000 to view the dashboard.
