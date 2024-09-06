@@ -4,7 +4,7 @@ This project is a music streaming analytics dashboard built using **React**. The
 
 ## Live Demo
 
-Check out the live version of the dashboard here: [Streamify Dashboard on Netlify](https://your-netlify-url.netlify.app)
+Check out the live version of the dashboard here: [Streamify Dashboard on Netlify](https://streamify-dashboard-kranti.netlify.app/)
 
 ## Features
 
