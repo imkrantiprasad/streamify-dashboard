@@ -2,6 +2,10 @@
 
 This project is a music streaming analytics dashboard built using **React**. The dashboard displays key metrics and data visualizations, allowing the management team to gain insights into user activity, revenue, and content performance on the fictional music streaming platform "Streamify."
 
+## Live Demo
+
+Check out the live version of the dashboard here: [Streamify Dashboard on Netlify](https://your-netlify-url.netlify.app)
+
 ## Features
 
 - **Key Metrics**: Displays total users, active users, total streams, revenue, and top artist.
