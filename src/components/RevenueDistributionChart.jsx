@@ -11,7 +11,7 @@ import { DashboardContext } from "../context/DashboardContext";
 
 const COLORS = ["#0088FE", "#00C49F"];
 
-const RevenueDistributionChart = ({ onClick }) => {
+const RevenueDistributionChart = () => {
   const { revenueDistribution } = useContext(DashboardContext);
 
   return (
@@ -27,7 +27,6 @@ const RevenueDistributionChart = ({ onClick }) => {
             cy="50%"
             outerRadius={100}
             fill="#8884d8"
-            onClick={(data) => onClick(data.source)}
           >
             {revenueDistribution.map((entry, index) => (
               <Cell
