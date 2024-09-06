@@ -14,7 +14,7 @@ const TopSongsChart = () => {
   const { topSongs } = useContext(DashboardContext);
 
   return (
-    <div className="bg-white shadow rounded-lg p-6">
+    <div className="bg-white shadow rounded-lg p-3 md:p-6">
       <h2 className="text-xl font-semibold mb-4">
         Top 5 Streamed Songs (Last 30 Days)
       </h2>
@@ -22,7 +22,7 @@ const TopSongsChart = () => {
         <BarChart
           data={topSongs}
           layout="vertical"
-          margin={{ top: 20, right: 30, left: 100, bottom: 20 }}
+          margin={{ top: 20, right: 30, left: 30, bottom: 20 }}
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis type="number" />

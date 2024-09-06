@@ -14,7 +14,7 @@ const UserGrowthChart = () => {
   const { userGrowth } = useContext(DashboardContext);
 
   return (
-    <div className="bg-white shadow rounded-lg p-6">
+    <div className="bg-white shadow rounded-lg p-3 md:p-6">
       <h2 className="text-xl font-semibold mb-4">
         User Growth (Last 12 Months)
       </h2>

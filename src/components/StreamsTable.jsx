@@ -71,7 +71,7 @@ const StreamsTable = () => {
   };
 
   return (
-    <div className="bg-white shadow rounded-lg p-6 mt-6">
+    <div className="bg-white shadow rounded-lg p-3 md:p-6 mt-6">
       <h2 className="text-xl font-semibold mb-4">Recent Streams</h2>
       <div className="md:flex md:space-x-4 mb-4">
         <input
