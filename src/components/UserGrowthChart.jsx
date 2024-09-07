@@ -24,8 +24,8 @@ const UserGrowthChart = () => {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Line type="monotone" dataKey="Total Users" stroke="#8884d8" />
-          <Line type="monotone" dataKey="Active Users" stroke="#82ca9d" />
+          <Line type="monotone" dataKey="totalUsers" stroke="#8884d8" />
+          <Line type="monotone" dataKey="activeUsers" stroke="#82ca9d" />
         </LineChart>
       </ResponsiveContainer>
     </div>
